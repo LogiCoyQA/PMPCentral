@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="jars/client-combined-3.141.59.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/client-combined-3.141.59-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/commons-codec-1.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/commons-collections4-4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/curvesapi-1.04.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/junit-4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/poi-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/poi-examples-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/poi-excelant-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/poi-ooxml-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/poi-scratchpad-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/xmlbeans-2.6.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/apache-mime4j-0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/bsh-2.0b4.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/cglib-nodep-2.1_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/commons-exec-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/commons-io-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/commons-io-2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/extent-config.xml"/>
+	<classpathentry exported="true" kind="lib" path="jars/extentreports-java-2.40.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/freemarker-2.3.23.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/gson-2.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/guava-19.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/hamcrest-core-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/hamcrest-library-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/httpclient-4.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/httpcore-4.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/httpmime-4.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/jcommander-1.48.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/jna-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/jna-platform-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/json-simple-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/jsoup-1.8.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/jxl.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/netty-3.5.7.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/saxon-8.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/SaxonLiaison.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/selenium-java-2.53.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/selenium-java-2.53.0-srcs.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/selenium-server-standalone-2.48.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/testng-6.9.9.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
